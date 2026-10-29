@@ -67,23 +67,23 @@ with st.form("lead_prediction_form"):
     st.subheader("Marketing Channels")
 
     print_media_type1 = st.selectbox(
-        "Print Media Type 1", [0, 1]
+        "Print Media Type 1", ["No", "Yes"]
     )
 
     print_media_type2 = st.selectbox(
-        "Print Media Type 2", [0, 1]
+        "Print Media Type 2", ["No", "Yes"]
     )
 
     digital_media = st.selectbox(
-        "Digital Media", [0, 1]
+        "Digital Media", ["No", "Yes"]
     )
 
     educational_channels = st.selectbox(
-        "Educational Channels", [0, 1]
+        "Educational Channels", ["No", "Yes"]
     )
 
     referral = st.selectbox(
-        "Referral", [0, 1]
+        "Referral", ["No", "Yes"]
     )
 
     submitted = st.form_submit_button(
